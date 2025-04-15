@@ -1,6 +1,7 @@
 import React from "react";
 import { ContactUs } from "./ContactUs.jsx";
 import Andressierra from "../img/Andressierra.png";
+import perfil from "../img/perfil.png";
 import Calculdora from "../img/Calculadora.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
@@ -14,18 +15,18 @@ export default function Principal() {
     return (
         <div className="flex justify-center items-center flex-col ">
             <div className="w-xl h-1/4 flex justify-center items-center flex-col">
-                <nav className="w- h-20 text-white flex justify-end items-center mr-20 border-b-2 border-gray-700">
+                <nav className="w-[20rem] h-20 text-white flex justify-center items-center mr-20 border-b-2 border-gray-700 md: w-full sm: w-full">
                     <ul className="flex flex-row gap-4">
                         <li><a href="#tecnologia">Tecnologias</a></li>
                         <li><a href="#proyecto">Proyectos</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
-                <div className="w-full flex justify-center items-center gap-12">
+                <div className="w-full flex justify-center items-center gap-12 ">
                     <div className="w-8/12 h-64 m-8 p-16 flex flex-row gap-48 items-center text-white">
                         <img
-                            className="w-32 h-32 bg-white rounded-full"
-                            src="https://static.vecteezy.com/system/resources/previews/020/911/740/non_2x/user-profile-icon-profile-avatar-user-icon-male-icon-face-icon-profile-icon-free-png.png"
+                            className="w-32 h-32   rounded-full"
+                            src={perfil}
                             alt=""
                         />
                         <div className="flex flex-col gap-4">
