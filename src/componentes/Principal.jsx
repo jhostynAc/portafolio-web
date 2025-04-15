@@ -15,7 +15,7 @@ export default function Principal() {
     return (
         <div className="flex justify-center items-center flex-col ">
             <div className="w-xl h-1/4 flex justify-center items-center flex-col">
-                <nav className="w-[20rem] h-20 text-white flex justify-center items-center mr-20 border-b-2 border-gray-700 md: w-full sm: w-full">
+                <nav className="w- h-20 text-white flex justify-end items-center mr-20 border-b-2 border-gray-700">
                     <ul className="flex flex-row gap-4">
                         <li><a href="#tecnologia">Tecnologias</a></li>
                         <li><a href="#proyecto">Proyectos</a></li>
