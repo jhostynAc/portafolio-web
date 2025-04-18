@@ -28,8 +28,7 @@ export default function Principal() {
                     <div className="flex flex-col gap-4 max-w-xl text-center md:text-left">
                         <h3 className="text-3xl font-bold">Jhostyn Albira</h3>
                         <p className="text-lg leading-relaxed">
-                            Soy estudiante de Ingeniería de Software, con experiencia como auxiliar técnico en desarrollo de software. Apasionado por aprender y crear soluciones tecnológicas innovadoras.
-                        </p>
+                        Soy estudiante de Ingeniería de Software con experiencia como auxiliar técnico en desarrollo de software. He ido adquiriendo conocimientos en desarrollo frontend y backend, lo que me ha permitido abordar proyectos de manera integral. Me motiva aprender continuamente y crear soluciones tecnológicas innovadoras y funcionales.                        </p>
                     </div>
                 </div>
 
